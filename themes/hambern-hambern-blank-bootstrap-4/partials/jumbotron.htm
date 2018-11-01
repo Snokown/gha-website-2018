@@ -1,17 +1,27 @@
 description = "The Jumbotron"
 ==
-<section id="jumbotron" class="m-t-3">
+<section id="jumbotron">
 	<div class="jumbotron">
-		<div class="container text-xs-center">
-			{% placeholder jumbotron default %}
-			<h1 class="display-3">Gates Healthcare Associates</h1>
-			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-			<hr class="m-y-2">
-			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-			<p class="lead">
-				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-			</p>
-			{% endplaceholder %}
+		<div class="container">
+		    <div id="jumbotron-contents" class="row">
+		        <div class="col-md-8 large-text">
+		            <h1 class="main-title">We Know Compounding<br/><span class="partial">Because We Pioneered the Industry</span></h1>
+		            <br/>
+		            <a href="">Watch the Video</a>
+		        </div>
+		        <div class="col-md-4">
+		            <div id="jumbotron-cta-box">
+						<h2><span class="partial">We're Here to Help</span><br/>Give Us a Call</h2>
+						<p>
+						<img width="25" src="/themes/hambern-hambern-blank-bootstrap-4/assets/svgs/phone.svg" alt="phone-icon">
+						<a href="tel:+1-978-646-0091">978-646-0091</a>
+						</p>
+						<p class="or-block">OR</p>
+						<br/>
+						<button class="btn btn-gates">Request Consultation</button>
+		            </div>
+		        </div>
+		    </div>
 		</div>
 	</div>
 </section>

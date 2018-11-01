@@ -1,0 +1,20 @@
+1541112861a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:739:"title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+{% put styles %}
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/navbar.css" rel="stylesheet" />
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/jumbotron.css" rel="stylesheet" />
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/homepage.css" rel="stylesheet" />
+{% endput %}
+<div class="container-fluid separator-dark"></div>
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nesciunt, vitae, unde voluptatibus tempora corporis pariatur commodi minima deserunt beatae recusandae dolores dignissimos cumque suscipit ipsam quae minus voluptatum! Voluptates.</p>";s:5:"mtime";i:1541112258;s:6:"markup";s:673:"{% put styles %}
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/navbar.css" rel="stylesheet" />
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/jumbotron.css" rel="stylesheet" />
+    <link href="/themes/hambern-hambern-blank-bootstrap-4/assets/css/homepage.css" rel="stylesheet" />
+{% endput %}
+<div class="container-fluid separator-dark"></div>
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nesciunt, vitae, unde voluptatibus tempora corporis pariatur commodi minima deserunt beatae recusandae dolores dignissimos cumque suscipit ipsam quae minus voluptatum! Voluptates.</p>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

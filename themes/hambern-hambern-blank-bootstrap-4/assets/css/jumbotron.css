@@ -1,0 +1,64 @@
+.jumbotron {
+    height: 60vh;
+    padding: 8%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/compounding-jumbotron.jpg");
+
+}
+
+#jumbotron-contents {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#jumbotron-cta-box {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.partial {
+    color: #6699C8;
+}
+
+.btn-gates {
+    background-color: #6699C8;
+    color: #fff;
+}
+
+.btn-gates:hover {
+    background-color: #4B7397;
+}
+
+.or-block {
+   width: 100%;
+}
+
+#jumbotron-cta-box a {
+    font-size: 24px;
+    color: #6699C8;
+    padding: 5px;
+}
+
+.large-text h1 {
+    font-weight: 700 !important;
+    color: #fff;
+}
+
+.large-text a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.large-text a:hover {
+    color: rgb(185, 185, 185);
+}

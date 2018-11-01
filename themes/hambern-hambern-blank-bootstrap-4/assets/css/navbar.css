@@ -1,0 +1,8 @@
+.navbar {
+    background-color: rgba(255,255,255,0.81);
+    height: 75px;
+}
+
+ul.nav.navbar-nav.pull-xs-right {
+    padding-top: 10px;
+}

@@ -1,9 +1,9 @@
 description = "Navigation bar"
 ==
-<section id="navbar" class="m-b-3">
-	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+<section id="navbar" class="{{ this.page.baseFileName != 'home' ? ' m-b-3' }}">
+	<nav class="navbar navbar-light bg-light navbar-fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="{{ 'features'|page }}">Gates Healthcare Associates</a>
+			<a class="navbar-brand" href="{{ 'home'|page }}"><img style="height: 55px;" src="/themes/hambern-hambern-blank-bootstrap-4/assets/svgs/gha-logo.svg"></a>
 			<ul class="nav navbar-nav pull-xs-right">
 				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
 					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
